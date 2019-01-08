@@ -75,6 +75,10 @@ html{
     font-size: 1vw;
 }
 
+footer{
+    margin-top: 2%;
+}
+
 
 @media only screen and (max-width: 600px) {
     .titulo{
