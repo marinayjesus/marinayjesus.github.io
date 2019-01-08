@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="includes/styles.css">
 		<link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
@@ -24,11 +24,11 @@
 
 	<body >
 		<div style="margin-top: 3%; margin-bottom: 2%">
-			<div style="display: block; white-space: nowrap; font-size: 3vw; text-align: center; font-family: Parisienne">
-				<img src="includes/flowers2.png" class="img-fluid" style="width: 1.5%">Marina & Jesús<img src="includes/flowers3.png" class="img-fluid" style="width: 1.5%">
+			<div class="titulo" style="display: block; white-space: nowrap; text-align: center; font-family: Parisienne">
+				<img id="floresV" src="includes/flowers2.png" class="img-fluid" style="">Marina & Jesús<img id="floresV" src="includes/flowers3.png" class="img-fluid" style="">
 			</div>
 			<br>
-			<div class="container" style="width: 55%">
+			<div id="car"  class="container" style="">
 				 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 					  <!-- Indicators -->
 					  <ol class="carousel-indicators">
@@ -81,16 +81,16 @@
 			<div class="text-center">
 				<br>
 				<br>
-				<img src="includes/flowers.png" class="img-fluid" style="width: 10%">
+				<img id="floresH" src="includes/flowers.png" class="img-fluid" style="">
 			</div>
 
 			<br>
 
 			<div class="container">
 				<div class="row">
-				<p style="text-align: center; font-family: Comfortaa; font-size: 1.6vw;">Viernes, Mayo 17, 2019</p>
+				<p style="text-align: center; font-family: Comfortaa;" class="fecha">Viernes, Mayo 17, 2019</p>
 				<!-- Display the countdown timer in an element -->
-				<p id="demo" style="text-align: center; font-family: Comfortaa; font-size: 1.2vw"></p>
+				<p class="countdown" id="demo" style="text-align: center; font-family: Comfortaa;"></p>
 
 				<br>
 				<br>
@@ -124,23 +124,23 @@
 				  }
 				}, 1000);
 				</script>
-					<div class="col-sm-4" style="margin-left: 10%; font-size: 2vw">
+					<div class="col-sm-4" style="margin-left: 10%;">
 						<p style="font-family: Parisienne; text-align: center;">
 							<i class="fas fa-church" style="color: rgb(255, 179, 179)"></i><br>
 							Ceremonia Religiosa
-							<p style="text-align: center; font-family: Content; font-size: 1.1vw">
-							San Antonio de Padua Senecu - 6:00 PM <br>
+							<p class="iglesia" style="text-align: center; font-family: Content;">
+							Parroquia Nuestra Señora de la Paz - <u>6:00 PM</u> <br>
 							</p>
-							<p style="text-align: center; font-family: Content; font-size: 1.2vw">
-								Baudelio Pelayo, Las Palmas Senecú, Cd Juárez, Chih., Mexico
+							<p class="iglesiaDir" style="text-align: center; font-family: Content;">
+								Calle Rancho el Retiro Sur 3517, Pradera Dorada, Cd Juárez, Chih.
 							</p>
 						</p>
 					</div>
-					<div class="col-sm-4" style="margin-left: 13%; font-size: 2vw">
+					<div class="col-sm-4" style="margin-left: 13%;">
 						<p style="font-family: Parisienne; text-align: center;">
 							<i class="fas fa-heart" style="color: rgb(255, 179, 179)"></i><br>
 							Recepción
-							<p style="text-align: center; font-family: Content; font-size: 1.2vw">
+							<p class="recepcion" style="text-align: center; font-family: Content;">
 								La Casona - 9:00 PM <br>
 								Blvd. Teófilo Borunda, Quintas Esmeralda, Cd Juárez, Chih., Mexico
 							</p>
@@ -152,11 +152,11 @@
 			<br>
 			<div style="text-align: center;">
 				<div>
-					<p style="font-family: Content; text-align: center; font-size: 1vw">
+					<p class="txt" style="font-family: Content; text-align: center;">
 						Favor de confirmar asistencia para el dia <u>17 de Mayo, 2019</u>.<br><br>
 					</p>
 				</div>
-				<a type="button" class="btn btn-default btn-lg" style="max-width: 10%; border-color: black; border-width: 3px;" href="https://withjoy.com/marina-chong-and-jesus-molina/rsvp?referrer=rsvpButton">RSVP</a>
+				<a id="btn" type="button" class="btn btn-default btn-lg" style="" href="https://withjoy.com/marina-chong-and-jesus-molina/rsvp?referrer=rsvpButton">RSVP</a>
 			</div>
 		</div>
 
