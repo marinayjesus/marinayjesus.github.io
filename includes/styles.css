@@ -71,7 +71,12 @@ html{
     font-size: 2vw;
 }
 
+#regalos{
+    margin-left: 33%;
+}
+
 .txt{
+    margin-top: 3%;
     font-size: 1vw;
 }
 
@@ -123,6 +128,11 @@ footer{
         margin-top: 13%;
         margin-left: 13%;
         margin-right: 13%;
+    }
+
+    #regalos{
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .txt{
